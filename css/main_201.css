@@ -1,0 +1,420 @@
+
+
+-html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+@font-face{font-family:tk-futura-pt-n5;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2"),url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/d?subset_id=2&fvd=n5) format("woff"),url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/a?subset_id=2&fvd=n5) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:tk-futura-pt-n7;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2"),url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/d?subset_id=2&fvd=n7) format("woff"),url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/a?subset_id=2&fvd=n7) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-futura-pt-n4;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2"),url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/d?subset_id=2&fvd=n4) format("woff"),url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/a?subset_id=2&fvd=n4) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-futura-pt-n3;src:url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/l?subset_id=2&fvd=n3) format("woff2"),url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/d?subset_id=2&fvd=n3) format("woff"),url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/a?subset_id=2&fvd=n3) format("opentype");font-weight:300;font-style:normal;}
+
+
+
+
+body {
+	background-color: #C6C6C6;
+	color: #f2f2f2;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 300;
+	overflow-x: hidden;
+	font-family: "futura-pt", sans-serif;
+
+}
+
+p::selection, a::selection{
+	background: #aaa;
+}
+
+h1::selection{
+	background: #999;
+}
+
+p::-moz-selection, a::-moz-selection {
+  background: #aaa; /* Gecko Browsers */
+}
+
+
+
+
+
+
+.moreinfo {
+	position: fixed;
+	left: 40px;
+	bottom: 40px;
+	font-size: 26px;
+	color: #fff;
+	z-index: 1;
+}
+
+.moreinfo a{
+	color: #fff;
+}
+
+.moreinfo a:hover{
+	color: #fff;
+}
+
+.em:hover{
+	-webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    transition: all ease 0.3s;
+}
+
+.em:after {
+	-webkit-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+	transition: all ease 0.3s;
+}
+
+.em {
+	max-width: 40px;
+	transition: all ease 0.3s;
+}
+
+
+
+
+
+#bio {
+	font-family: "futura-pt", sans-serif;
+	max-width: 70%;
+	float: left;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 40px;
+	color: #fff;
+	padding-left: 5%;
+	padding-top: 40px;
+	position: fixed;
+}
+
+#bio a{
+	color: #fff;
+}
+
+
+
+.container{
+
+  max-width: 1600px;
+
+ 
+}
+
+.sidebar {
+	max-width: 16%;
+	padding-left: 40px;
+	float: left;
+	z-index: 99;
+	color:#999;
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+
+#overlay {
+	height: 100vh;
+	background-color: #222;
+	width: 100%;
+	position: fixed;
+	opacity: 0.90;
+    z-index: 99;
+
+
+	
+}
+
+
+
+.index {
+	z-index: -999;
+}
+
+.top {
+	min-height:400px;
+	background-color: #c6c6c6;
+	width: 100%;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li a {
+    color:#999;
+    font-weight:500;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+a.nav-active {
+    color:#fff;
+}
+
+nav.stick {
+    position: fixed;
+    margin-top: 40px;
+    top: 0;
+}
+
+
+
+.title {
+	font-family: 'futura-pt';
+	font-size: 48px;
+	color: #fff;
+	line-height: 44px;
+}
+
+.projectname {
+	font-family: 'futura-pt';
+	font-size: 22px;
+	color: #fff;
+	font-weight: 300;
+	line-height: 36px;
+	
+}
+
+
+h1{
+	font-family: 'futura-pt';
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #999;
+
+}
+
+
+.about {
+	max-width: 60%;
+	position: relative;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	margin: auto;
+	font-size: 22px;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+}
+
+.aboutproject {
+
+	font-size: 22px;
+	font-weight: 300;
+	max-width: 60%;
+	line-height: 34px;
+	
+	color: #fff;
+	margin-left: 16%;
+	padding-bottom: 60px;
+
+}
+
+
+
+
+.wrapper {
+	max-width: 82%;
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	
+}
+
+.about a {
+	color:#999;
+    font-weight:500;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+
+
+
+div.clear {
+	clear: both;
+}
+
+.imgbox {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	background-color: #bbb;
+	text-align: center;
+	margin-top: 10px;
+	outline: none;
+	padding-bottom: 8%;
+	padding-top: 8%;
+
+}
+
+.imgbox img{
+
+	margin: auto;
+	width: 80%;
+	height: 80%;
+}
+
+.imgLarge {
+	margin-top: 50px;
+	max-width: 100%;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+.imgLarge img {
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+
+}
+
+.SmallContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+
+}
+
+.imgSmall {
+	margin-right:4%;
+	margin-left: 4%;
+	align-items: flex-start;
+
+}
+
+.imgSmall img {
+	max-width: 100%;
+
+}
+
+
+.underline{
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: #111;
+  padding: 0px 3px 0px 3px;
+  transition: color ease 0.3s;
+  margin-bottom: 5px;
+}
+.underline:after {
+   content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #111;
+    transition: all ease 0.3s;
+
+}
+.underline:hover {
+  color: white;
+}
+.underline:hover:after {
+ height: 100%;
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+.container {
+
+	max-width: 1280px;
+
+	}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+.wrapper {
+	margin-left: 0px;
+	max-width: 100%;
+	float: none;
+	}
+
+#bio {
+	max-width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.sidebar {
+	display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+.about, .aboutproject {
+	font-size: 22px;
+	line-height: 32px;
+	max-width: 100%;
+	margin: 0;
+	}
+
+#bio {
+	max-width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 23px;
+}
+
+.SmallContainer {
+	-webkit-flex-flow: row wrap;
+	-moz-box-orient: vertical;
+	}
+
+h1 {
+	font-size: 11px;
+	}
+
+.title{
+	font-size: 36px;	
+	}
+
+}
+

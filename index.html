@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+	  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.js"></script>
+  
+
+<script src="https://use.typekit.net/ddy5osf.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <link rel="stylesheet" type="text/css" href="css/main_201.css"/>
+
+
+
+<script type="text/javascript">
+
+   $(document).ready(function(){
+   window.sr = ScrollReveal();
+    sr.reveal('.reveal',
+      { origin: 'top',
+        distance: '10px',
+        duration: 400,
+        delay: 100,
+        scale: 1,}
+
+      );
+
+
+
+  });
+</script>
+  
+
+<script type="text/javascript">
+  
+      $(window).scroll(function(){
+        $("#overlay,#bio").css("opacity", 0.95 - $(window).scrollTop() / 250);
+
+        if ($(this).scrollTop() > 250) {
+            $("#overlay,#bio").css({
+                'z-index': -1})
+        } else {
+            $("#overlay,#bio").css({
+                'z-index': 999})
+        }
+
+      });
+
+
+
+</script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+ 
+
+    /* Smooth Scroll */
+    var $root = $('html, body');
+    $('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top + 5
+    }, 1000);
+    return false;
+    });
+
+  
+    $(window).scroll(function(){
+        var window_top = $(window).scrollTop() + 40; 
+        var div_top = $('#nav-anchor').offset().top;
+        if (window_top > div_top) {
+            $('nav').addClass('stick');
+        } else {
+            $('nav').removeClass('stick');
+        }
+    });
+
+    var aChildren = $("nav li").children(); 
+
+    var aArray = []; 
+    for (var i=0; i < aChildren.length; i++) {    
+        var aChild = aChildren[i];
+        var ahref = $(aChild).attr('href');
+        aArray.push(ahref);
+    } 
+
+    $(window).scroll(function(){
+        var windowPos = $(window).scrollTop(); 
+        var windowHeight = $(window).height(); 
+        var docHeight = $(document).height();
+
+        for (var i=0; i < aArray.length; i++) {
+            var theID = aArray[i];
+            var divPos = $(theID).offset().top; 
+            var divHeight = $(theID).height(); 
+            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+                $("a[href='" + theID + "']").addClass("nav-active");
+            } else {
+                $("a[href='" + theID + "']").removeClass("nav-active");
+            }
+        }
+
+
+        if(windowPos + windowHeight == docHeight) {
+            if (!$("nav li:last-child a").hasClass("nav-active")) {
+                var navActiveCurrent = $(".nav-active").attr("href");
+                $("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
+                $("nav li:last-child a").addClass("nav-active2");
+            }
+        }
+    });
+});
+
+  </script>
+
+
+  </head>
+
+<body>
+<div id="atas"></div>
+<div id="overlay">
+  <div id="bio">
+    <p>Aurenia Karisa — UI/UX Designer, originally from Indonesia, currently living and working in Melbourne, Australia. <a href="about.html"><i class="em em-wave"></i></a></p>
+    <p>Also an <a href="#Illustration" class="underline">Illustrator</a> by night. <a href="#NEDC" class="underline">Scroll</a> to see some of my latest work. </a></p><br>
+
+    <p><a href="mailto:akurenia@gmail.com?Subject=Hello" class="underline">akurenia@gmail.com</a>
+    <br><a href="https://www.linkedin.com/in/aurenia/" target="_blank" class="underline">Linkedin</a> — <a href="#" target="_blank" class="underline">Dribbble</a> — <a href="#" target="_blank" class="underline">Instagram</a>
+  </div></div>
+
+
+
+
+<div class="top"></div>
+
+<div class="container clearfix">
+
+  <div class="sidebar">
+    <div id="nav-anchor"></div>
+     <nav>
+     <ul>
+        <li><a href="#NEDC">NEDC:SFE</a></li>
+        <li><a href="#ThirstyCamel">Thirsty Camel</a></li>
+        <li><a href="#nintendo">Nintendo</a></li>
+        <li><a href="#Illustration">Illustrations</a></li>
+        <li>—</li>
+        <li><a href="#atas">Back to top</a></li>
+    </ul>
+    </nav>
+  </div>
+
+    <a href="about.html" class="moreinfo"><i class="em em-wave"></i></a>
+
+  <div class="wrapper" >
+ <section id="NEDC">
+    <div class="imgLarge reveal"><img src="assets/NEDC_phones.png"></div>
+    <div class="aboutproject reveal" style="padding-top: 50px;">
+
+      <p class="title">NEDC: Stories From Experience</p>
+      <p style="padding-bottom: 20px;">NEDC has produced a learning resource for adults who are recovering from eating disorders called Stories From Experience - the brief was to deliver Stories From Experience digitally in an engaging manner.</p>
+      <h1>User Interface, User Experience</h1>
+    </div>
+     <div class="imgbox reveal"><img src="assets/NEDC_2.jpg"></div>
+
+    <div class="about reveal">
+      <p>The website does not serve only as an online version of the existing modules, but also as a learning tool that assists the recovery. With this site, users can send their thoughts privately to their loved ones & also bookmark readings that resonates with them. </p>
+      <p>When user landed on their dashboard, they are presented first and foremost with their learning progress with the option to continue with their current reading. The navigation allows them to jump between modules seamlessly anywhere on the site.</p>
+     
+    </div>  
+    
+    <div class="imgbox reveal"><img src="assets/NEDC_1.jpg"></div>
+  
+   <div class="imgbox reveal"><img src="assets/NEDC_3.jpg"></div>
+
+    <div class="about reveal">
+       <p>A playful but simple interface is the key here to get users encouraged to finish the modules & grasp the content easily. I was given the opportunity to lead the visual direction of the site & had so much fun illustrating throughout the website.</p>
+      <p>Adding to that, the website needs to be responsive so that it is accessible anywhere & anytime.</p>
+    </div>  
+
+         <div class="SmallContainer">
+        <div class="imgSmall reveal"><img src="assets/NEDCSml.jpg"></div>
+
+        <div class="imgSmall reveal"><div style="height: 100px;"></div><img src="assets/NEDC_tool.gif"></div>
+
+        </div>
+
+
+     
+      
+  </section>
+  <section id="ThirstyCamel">
+
+    <div class="aboutproject reveal">
+      <p class="title">Thirsty Camel</p>
+      <p style="padding-bottom: 20px;">User Interface design for an Australian liquor shop Thirsty Camel. The strategy was to begin with mobile consideration first, keeping in mind that their customers predominantly access this website using mobile devices.</p>
+      <h1>User Interface</h1>
+    </div>
+
+      <div class="imgLarge reveal" ><img src="assets/Thirsty_phone.png"></div>
+         <div class="about reveal" style="padding-top: 0px;">
+         <p class="info">One of the design challenges is to maintain a minimal interface that showcases the products nicely, while still following their branding restriction. I also need to ensure that the responsive transition goes smoothly across different devices & builtable using Magento.</p>
+
+          <h1><a href="https://www.thirstycamel.com.au/"  target="_blank">thirstycamel.com.au</a></h1>
+          </div>
+
+    <div class="imgbox reveal"><img src="assets/Thirsty_desktop1.jpg"></div>
+    <div class="imgbox reveal"><img src="assets/Thirsty_desktop2.jpg"></div>
+  </section>
+
+  <section id="nintendo">
+
+        <div class="aboutproject reveal" style="padding-top: 100px;">
+        <p class="title">Nintendo</p>
+        <p style="padding-bottom: 20px;">Had an amazing opportunity to work with Nintendo on various digital campaign websites. </p>
+
+        
+        <h1>User Interface</h1>
+        </div>
+
+
+        <div class="imgbox reveal"><img src="assets/nintendo_poochy.jpg"></div>
+
+         <div class="about reveal">
+
+
+          <p class="info">Yours to Play is a campaign introducing Nintendo 3DS and 2DS games to new gamers. The idea here is to suggest users with games that suit their style of play & group of age. </p>
+          
+
+          <h1><a href="https://www.nintendo.com.au/yours-to-play/"  target="_blank">nintendo.com.au/yours-to-play</a></h1>
+          <p></p>
+          </div>  
+
+            <div class="imgbox reveal"><img src="assets/Nintendo_yourstoplay.jpg"></div>
+
+            <div class="SmallContainer">
+            <div class="imgSmall reveal"><img src="assets/test2.gif">
+            </div>
+
+            <div class="imgSmall reveal"><div style="height: 100px;"></div><img src="assets/test3.gif"></div>
+
+    
+            </div>
+
+            <div class="imgbox reveal"><img src="assets/Nintendo_yourstoplay1.jpg"></div>
+        </section>
+  <section id="Illustration">
+
+
+        <div class="aboutproject reveal" style="padding-top: 100px;">
+        <p class="title">Illustrations</p>
+        <p>Various illustration that I did aside from designing. Illustration is something that I'm thinking of doing professionally in the future, but for now I'm still exploring my own illustration style.</p>
+
+        
+        </div>
+
+          
+          <div class="SmallContainer">
+            <div class="imgSmall reveal"><img src="assets/illu_ngeng.jpg">
+            </div>
+
+            <div class="imgSmall reveal"><div style="height: 100px;"></div><img src="assets/illu_Temanhutan.jpg"></div>
+          </div>
+
+          <div class="SmallContainer">
+            <div class="imgSmall reveal"><img src="assets/illu_catstickers.jpg">
+            </div>
+          </div>
+
+          <div class="SmallContainer">
+            <div class="imgSmall reveal">
+            <img src="assets/illu_luckyjinx1.jpg"></div>
+
+            <div class="imgSmall reveal">
+            <div style="height: 100px;"></div><img src="assets/illu_truck.gif"></div>
+
+          </div>
+
+        </section>
+</div>
+       
+
+</div>
+
+   
+
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</body>

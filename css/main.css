@@ -1,0 +1,140 @@
+body {
+	background-color: #2a2a2a;
+	font-family: 'Roboto', sans-serif;
+	color: #DBDBDB;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 300;
+}
+
+.sidebar {
+	max-width: 25%;
+	min-width: 150px;
+	position: fixed;
+	top: 0px;
+	padding-left: 40px;
+	padding-top: 40px;
+	min-height: 100%;
+}
+
+.projects {
+	bottom: 40px;
+	position: fixed;
+}
+
+
+.title {
+	font-family: 'Roboto Mono';
+	font-size: 14px;
+	color: #7C56E0;
+}
+
+.projectname {
+	font-family: 'Roboto Mono';
+	font-size: 28px;
+	color: #7C56E0;
+	font-weight: 300;
+}
+
+
+
+h1{
+	font-family: 'Roboto Mono';
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 32px;
+	color: #838383;
+
+}
+
+.about {
+	width: 58.33%;
+	position: relative;
+	padding-bottom: 80px;
+	padding-top: 15px;
+}
+
+.keterangan {
+	display: inline-block;
+	float: left;
+	width: 90px;
+	font-size: 14px;
+	line-height:22px;
+	margin-top: 20px;
+
+}
+
+.wrapper {
+	max-width: 900px;
+	margin-left: 25%;
+}
+
+.casestudy {
+	max-width: 900px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.col1 {
+	padding-top: 40px;
+	width: 25%;
+	max-width: 250px;
+	display: block;
+	float: left;
+}
+.col2 {
+	padding-top: 40px;
+
+	max-width: 250px;
+	display: block;
+	float: right;
+}
+
+a {
+	font-family: 'Roboto';
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.links{
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+
+div.clear {
+	clear: both;
+}
+
+.imgbox {
+	max-width: 900px;
+	position: relative;
+	padding-top: 70px;
+	padding-bottom:70px;
+	margin: auto;
+	background-color: #1B1B1B;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.imgbox img{
+	width: 70%;
+	height: 70%;
+	margin: auto;
+}
+
+.imgLarge {
+	margin-top: -200px;
+	margin-left: 20px;
+	max-width: 1000px;
+	margin-bottom: 50px;
+}
+
+.imgLarge img {
+	max-width: 110%;
+	max-height: 110%;
+}
+
+.custom {
+   cursor: url(../assets/arrow.svg), auto;
+}
