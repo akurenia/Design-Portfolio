@@ -3,51 +3,31 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-
-
-
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
-
-<script src="https://use.typekit.net/ddy5osf.js"></script>
+  <script src="https://use.typekit.net/ddy5osf.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <link rel="stylesheet" type="text/css" href="css/about.css"/>
 
-    <script type="text/javascript">
+<script type="text/javascript">
     $(document).ready(function() {
-
 $('body').css('display', 'none');
-
 $('body').fadeIn(1000);
-
-
-
+	    
 $('.link').click(function() {
-
 event.preventDefault();
-
 newLocation = this.href;
-
 $('body').fadeOut(1000, newpage);
-
 });
 
 function newpage() {
-
 window.location = newLocation;
-
 }
-
 });
 </script>
-
  </head>
-
 <body onclick="history.back(-1)">
-
- 
 <div class="bio reveal">
    	<h1>A bit more about me</h1>
     <p>Hello there. I'm Aurenia, a UI/UX Designer and a part time illustrator. Indonesian born and raised, but currently based in Melbourne, Australia.</p>
@@ -62,10 +42,5 @@ window.location = newLocation;
       <br><a href="https://www.linkedin.com/in/aurenia/" target="_blank" class="underline">Linkedin</a> — <a href="#" target="_blank" class="underline">Dribbble</a> — <a href="#" target="_blank" class="underline">Instagram</a>
       <br> <br>
 </div>
-
-
-
-
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
 </body>
