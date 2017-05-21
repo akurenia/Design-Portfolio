@@ -12,7 +12,7 @@ body {
 	color: #f2f2f2;
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: 400;
+	font-weight: 300;
 	overflow-x: hidden;
 	font-family: "futura-pt", sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -72,7 +72,7 @@ p::-moz-selection, a::-moz-selection {
 	max-width: 70%;
 	float: left;
 	font-size: 28px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 40px;
 	color: #fff;
 	padding-left: 5%;
