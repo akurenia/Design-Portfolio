@@ -164,10 +164,8 @@ nav.stick {
 	font-size: 22px;
 	color: #fff;
 	font-weight: 300;
-	line-height: 36px;
-	
+	line-height: 36px;	
 }
-
 
 h1{
 	font-family: 'futura-pt';
@@ -177,7 +175,6 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #999;
-
 }
 
 
@@ -204,21 +201,14 @@ h1{
 	color: #fff;
 	margin-left: 16%;
 	padding-bottom: 60px;
-
 }
-
-
-
 
 .wrapper {
 	max-width: 82%;
 	float: right;
 	padding-left: 30px;
 	padding-right: 30px;
-
 }
-
-
 
 a {
 	text-decoration: none;
@@ -247,7 +237,7 @@ div.clear {
 	max-width: 100%;
 	position: relative;
 	margin: auto;
-	background-color: #bbb;
+	background-color: #a6a6a6;
 	text-align: center;
 	margin-top: 10px;
 	outline: none;
