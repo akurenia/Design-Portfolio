@@ -4,7 +4,6 @@
 	padding: 0;
 }
 
-@font-face{font-family:tk-futura-pt-n5;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2"),url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/d?subset_id=2&fvd=n5) format("woff"),url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/a?subset_id=2&fvd=n5) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:tk-futura-pt-n7;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2"),url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/d?subset_id=2&fvd=n7) format("woff"),url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/a?subset_id=2&fvd=n7) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-futura-pt-n4;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2"),url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/d?subset_id=2&fvd=n4) format("woff"),url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/a?subset_id=2&fvd=n4) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-futura-pt-n3;src:url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/l?subset_id=2&fvd=n3) format("woff2"),url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/d?subset_id=2&fvd=n3) format("woff"),url(https://use.typekit.net/af/75f41e/000000000000000000010096/27/a?subset_id=2&fvd=n3) format("opentype");font-weight:300;font-style:normal;}
 
 body {
 	background-color: #C6C6C6;
@@ -13,7 +12,7 @@ body {
 	line-height: 26px;
 	font-weight: 300;
 	overflow-x: hidden;
-	font-family: "futura-pt", sans-serif;
+	font-family: "tk-futura-pt", sans-serif;
 
 }
 
