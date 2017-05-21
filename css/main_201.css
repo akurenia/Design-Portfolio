@@ -12,8 +12,7 @@ body {
 	line-height: 26px;
 	font-weight: 300;
 	overflow-x: hidden;
-	font-family: "tk-futura-pt", sans-serif;
-
+	font-family: "futura-pt", sans-serif;
 }
 
 p::selection, a::selection{
