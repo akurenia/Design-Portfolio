@@ -15,8 +15,6 @@ body {
 	font-weight: 300;
 	overflow-x: hidden;
 	font-family: "futura-pt", sans-serif;
-	-webkit-font-smoothing: subpixel-antialiased;
-
 }
 
 p::selection, a::selection{
@@ -62,10 +60,6 @@ p::-moz-selection, a::-moz-selection {
 	max-width: 40px;
 	transition: all ease 0.3s;
 }
-
-
-
-
 
 #bio {
 	font-family: "futura-pt", sans-serif;
