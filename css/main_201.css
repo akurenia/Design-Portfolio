@@ -97,6 +97,10 @@ p::-moz-selection, a::-moz-selection {
 	z-index: 99;
 	color:#999;
 }
+
+.sidebar a:hover {
+	font-weight:500;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
