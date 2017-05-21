@@ -3,8 +3,8 @@
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: subpixel-antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+	text-rendering:optimizeLegibility;
+	-moz-osx-font-smoothing:grayscale;
 }
 
 body {
@@ -28,7 +28,7 @@ h1::selection{
 }
 
 p::-moz-selection, a::-moz-selection {
-  background: #aaa; /* Gecko Browsers */
+  background: #aaa; /* Gecko B	rowsers */
 }
 .moreinfo {
 	position: fixed;
@@ -72,7 +72,7 @@ p::-moz-selection, a::-moz-selection {
 	max-width: 70%;
 	float: left;
 	font-size: 28px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 40px;
 	color: #fff;
 	padding-left: 5%;
