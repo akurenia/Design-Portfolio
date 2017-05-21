@@ -86,6 +86,7 @@ p::-moz-selection, a::-moz-selection {
 
 .sidebar {
 	font-family: 'futura-pt';
+	font-weight: 500;
 	max-width: 16%;
 	padding-left: 40px;
 	float: left;
