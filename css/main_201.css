@@ -344,6 +344,10 @@ div.clear {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+	
+.about, .aboutproject {
+	max-width: 90%;
+}
 
 
 .sidebar {
