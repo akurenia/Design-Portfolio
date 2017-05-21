@@ -85,6 +85,7 @@ p::-moz-selection, a::-moz-selection {
 }
 
 .sidebar {
+	font-family: 'futura-pt';
 	max-width: 16%;
 	padding-left: 40px;
 	float: left;
@@ -177,6 +178,7 @@ h1{
 
 
 .about {
+	font-family: 'futura-pt';
 	max-width: 60%;
 	position: relative;
 	padding-bottom: 60px;
@@ -189,7 +191,7 @@ h1{
 }
 
 .aboutproject {
-
+	font-family: 'futura-pt';
 	font-size: 22px;
 	font-weight: 300;
 	max-width: 60%;
