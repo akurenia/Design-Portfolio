@@ -3,9 +3,9 @@
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: subpixel-antialiased;
-
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.004);
 }
-
 
 body {
 	background-color: #C6C6C6;
